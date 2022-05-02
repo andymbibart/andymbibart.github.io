@@ -1,6 +1,17 @@
 body {
   background-color: #2F939E;
   font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  
+}
+
+ul{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
 }
 
 
