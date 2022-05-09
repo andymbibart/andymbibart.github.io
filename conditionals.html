@@ -14,11 +14,44 @@
             This sections must cover if, else if, and else<br>
 
        </p>
+       <!--oopsie i will have to input each line in one by one it seems like-->
+       <p>
+        import util.java.Scanner;
+
+        class conditionals {
+            public static void main(String[] args) {
+                java.util.Scanner scnr = new Scanner(System.in);
+        
+                //water temperature conditional question
+                //sunken ships are safe and comfortable to explore under certain temperatures!
+                //the pirates can only proceed if the water temperature is warm and pleasant! 
+        
+                System.out.print("Enter the current water temperature: ");
+                int watertemp = scnr.nextInt();
+        
+                if ((watertemp > 25) && (watertemp < 32)) {
+                    System.out.println("The water is warm and pleasant, we should be safe to proceed!");
+                }
+                else if (watertemp <= 25) {
+                    System.out.println("The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
+                }
+                else {
+                    System.out.println("The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
+                }
+        
+            }
+        }
+       </p>
+
+       <p style="text-align: center;">
+        which of the following options will allow the pirates to explore the sunken ship safely?
+       </p>
+
         <div style ="text-align: center;">
-            <a class="btn" href="correctORincorrect_2\correct2.html" > Answer 1: ... </a><br>
-            <a class="btn" href="correctORincorrect_2\incorrect2.1.html" > Answer 2: ... </a><br>
-            <a class="btn" href="correctORincorrect_2\incorrect2.2.html" > Answer 3: ... </a><br>
-            <a class="btn" href="correctORincorrect_2\incorrect2.3.html" > Answer 4: ... </a><br>        
+            <a class="btn" href="correctORincorrect_2\correct2.html" > Answer 1: 28°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.1.html" > Answer 2: 0°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.2.html" > Answer 3: 32°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.3.html" > Answer 4: 85°C</a><br>        
         </div>   
     </body>
 </div>
