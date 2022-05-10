@@ -7,41 +7,45 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Conditionals</title>
 </head>
+<h1>Conditionals</h1>
+
+<div class="fullCard">
     <body>
-        <h1>Conditionals</h1>
-        <p class="fullCard">
+        <p>
             Intro summary of conditionals<br>
             This sections must cover if, else if, and else<br>
+            <pre>
 
-       </p>
-       <!--oopsie i will have to input each line in one by one it seems like-->
-       <p>
-        import util.java.Scanner;
+import util.java.Scanner;
 
-        class conditionals {
-            public static void main(String[] args) {
-                java.util.Scanner scnr = new Scanner(System.in);
-        
-                //water temperature conditional question
-                //sunken ships are safe and comfortable to explore under certain temperatures!
-                //the pirates can only proceed if the water temperature is warm and pleasant! 
-        
-                System.out.print("Enter the current water temperature: ");
-                int watertemp = scnr.nextInt();
-        
-                if ((watertemp > 25) && (watertemp < 32)) {
-                    System.out.println("The water is warm and pleasant, we should be safe to proceed!");
-                }
-                else if (watertemp <= 25) {
-                    System.out.println("The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
-                }
-                else {
-                    System.out.println("The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
-                }
-        
-            }
+class conditionals {
+    public static void main(String[] args) {
+        java.util.Scanner scnr = new Scanner(System.in);
+
+        //water temperature conditional question
+        //sunken ships are safe and comfortable to explore under certain temperatures!
+        //the pirates can only proceed if the water temperature is warm and pleasant! 
+
+        System.out.print("Enter the current water temperature: ");
+        int watertemp = scnr.nextInt();
+
+        if ((watertemp > 25) && (watertemp < 32)) {
+            System.out.println("The water is warm and pleasant, we should be safe to proceed!");
         }
+        else if (watertemp <= 25) {
+            System.out.println("The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
+        }
+        else {
+            System.out.println("The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
+        }
+
+    }
+}
+               </pre>
+
        </p>
+       
+</div>
 
        <p style="text-align: center;">
         which of the following options will allow the pirates to explore the sunken ship safely?
@@ -54,7 +58,7 @@
             <a class="btn" href="correctORincorrect_2\incorrect2.3.html" > Answer 4: 85°C</a><br>        
         </div>   
     </body>
-</div>
+
 
 
 
