@@ -4,26 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/variable.css">
-    <title>Variables & Data Types</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Variables and Data Types</title>
 </head>
+<h1>Variables and Data Types</h1>
 
-
+<div class="fullCard">
     <body>
-        <h1>Variables & Data Types</h1>
-        <p class="fullCard">
-
+        <p>
             Variables are labels that you can assign to values.
 
             Because most programs define and gather some sort of data,
-            and then do something useful with it, it helps to classify different types of data.  
+            and then do something useful with it, it helps to classify different types of data.  <br>
+            <pre>
+
+import java.util.Scanner;
+
+public class educationChallenge {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+
+        double adjacentSide;
+        double oppositeSide; 
+        double hypotenuseSide1;
+        int hypotenuseSide2;
+        double hypotenuseSide3;
+
+        System.out.println("Enter the Adjacent side of the triangle followed by two decimal places.");
+        adjacentSide = scnr.nextDouble();
+        System.out.println("Your Adjacent side is: " + adjacentSide);
+        
+        System.out.println();
+        
+        System.out.println("Enter the Opposite side of the triangle followed by two decimal places.");
+        oppositeSide = scnr.nextDouble();
+        System.out.println("Your Opposite side is: " + oppositeSide);
+        
+        System.out.println();
+        System.out.println(hypotenuseSide1 = ((adjacentSide * oppositeSide) / 2));
+        System.out.println(hypotenuseSide2 = (int)(hypotenuseSide1));
+        System.out.println(hypotenuseSide3 = (double)(hypotenuseSide2));
+
+    }
+
+}
+               </pre>
+
        </p>
+       
+</div>
+
         <div style ="text-align: center;">
-            <a class="btn" href="correctORincorrect_1\incorrect1.1.html" > Answer 1: ... </a><br>    
-            <a class="btn" href="correctORincorrect_1\correct1.html" > Answer 2: ... </a><br>
-            <a class="btn" href="correctORincorrect_1\incorrect1.2.html" > Answer 3: ... </a><br>
-            <a class="btn" href="correctORincorrect_1\incorrect1.3.html" > Answer 4: ... </a><br>
+            <a class="btn" href="correctORincorrect_1\incorrect1.1.html" > Answer 1 </a><br>
+            <a class="btn" href="correctORincorrect_1\correct1.html" > Answer 2 </a><br>
+            <a class="btn" href="correctORincorrect_1\incorrect1.2.html" > Answer 3 </a><br>
+            <a class="btn" href="correctORincorrect_1\incorrect1.3.html" > Answer 4 </a><br>        
         </div>   
     </body>
+
+
+
 
 </html>
