@@ -4,7 +4,6 @@ body{
     font-family: monospace;
 }
 h1{
-    font-family: monospace;
     font-size: 40px;
     color: rgb(5, 3, 100);
     text-align: center;
@@ -22,6 +21,9 @@ h1{
   .cardContent {
     padding: 10px;
   }
+
+/* MUST MAKE PAGES RRESPONSIVE!!!! */
+
 
 ul{
     font-family: monospace;
@@ -50,7 +52,6 @@ ul{
     border-width: 2px;
     padding: 15px 25px 15px 15px;
     text-align: center;
-    /* margin: auto;  */
     margin:0px 20px 20px 30px;
 
     vertical-align: middle;
