@@ -1,0 +1,54 @@
+
+body {    
+    font-family: monospace;
+    margin:auto;
+}
+
+.background-image {
+    background-image: url('../img/ishan-seefromthesky-8qEuawM_txg-unsplash.jpg');
+    background-repeat: no-repeat; /* doesn't repeat the background (one image) */
+    background-size: cover; /* stretches background across whole page  */
+  }
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 78, 78);
+    text-align: center;
+}
+
+.fullCard {
+    background-color: rgb(245, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 50px; 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width : 80%;
+    box-shadow: 0 10px 10px 0 rgb(63, 63, 63, 0.05), 0 15px 15px 0 grey;
+    margin: 70px 200px;
+}
+
+  .btn { 
+    background-color: rgba(217, 255, 253, 0.613);
+    color:black;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    display:inline-block;
+    text-decoration:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    margin:0px 20px 20px 30px;
+    border-radius:16px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
