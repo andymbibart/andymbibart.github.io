@@ -9,6 +9,21 @@ h1{
     text-align: center;
 }
 
+.tiledBackground {
+    /* background-image: url('../img/maahid-photos-eJf4qM291bI-unsplash.jpg'); */
+    background-size: 100%;
+    /* width: 300px;
+    height: 300px; */
+    opacity: 0.85;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+  }
+
+
 .fullCard {
     background-color: white;
     border: 1px solid #ccc;

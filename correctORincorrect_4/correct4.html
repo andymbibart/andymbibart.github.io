@@ -4,19 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css\styles.css">
+    <link rel="stylesheet" href="../css/correct.css"> 
     <title>Correct</title>
 </head>
 
-<body>
+<body class="tiledBackground">
     <div>
-        <h1>Correct!</h1>
         <div class="fullCard" style ="text-align: center;">
-            <p>Explain why the answer is correct</p>
+            <h1>Correct!</h1>
+            <div class="wrapper"> <svg class="animated-check" viewBox="0 0 24 24">
+                <path d="M4.1 12.7L9 17.6 20.3 6.3" fill="none" /> </svg>
+            </div>
+           
+            <p>
+                Well done! The character positions in a string in Java are numbered from 0 (the index of the first character) to the length minus 1. The first character is at index message.length() - 1, and the last character of the message has an index of 0.
+                The code prints out the message from the last character, to the first character i.e. the message backwards.  
+            
+            </p>
+
+            <div style ="text-align: center;">
+                <a class = "btn" href="../arrays.html">Next challenge</a> 
+            </div>
+    
+        
         </div>
-        <div style ="text-align: center;">
-            <a class = "btn" href="../fin.html">Continue -></a> 
-        </div>
+        
+        <span class="checkmark">
+            <div class="checkmark_stem"></div>
+            <div class="checkmark_kick"></div>
+        </span>
         
     </div>
 </body>

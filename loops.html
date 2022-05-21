@@ -10,54 +10,66 @@
 
 <body class="tiledBackground">
     <div class="fullCard">
-        <div class="cardContent">
-          <div class="cardText"> 
+        <div>
+          <div> 
             
-            <h1>Loops</h1>
+            <h1> <em>for</em> Loops</h1>
             <hr>
-            <em>
+            
             
             <div>
-            <p>
-                Programs often need to repeat some action. A portion of a program that repeats a statement or group of statemetns is called a loop. 
-                The statement or group of statements in a loop is called the body of the loop 
-                Java has <u>three</u>> standard looping constructs: <strong>while</strong> <strong>do-while</strong>, and <strong>for</strong>.<br>
-            
-                The key to a loop is the <em>conditional test</em>. In Java, a conditional test is an expression that results in a boolean value - in other words, something that is either true or false.
-                While loops -> code inside a block bounded by curly braces is repeated 'while' a given condition is true.
-                Do-while loops -> 
-                For loops ->
-
-                Java problem:
+            <p> 
+                Repeating tasks without making errors is something that computers do well and people do poorly. 
+                Loops enable you to repeat a statement or group of statements until a given condition is met. 
+                The <strong>for</strong> loop .... 
                 
-                <pre>
-
-                    public class sunkenShip {
-                        
-                        public static void main(String[] args) {
-                            
-                            Scanner scnr = new Scanner(System.in);
-                            int n = 1;
-                            boolean asleep = false;
-                            userInput = scnr.nextInt();
-                            
-                            System.out.println("Three more sheep jump over the fence...");
-                    
-                            while (asleep = false){
-                                if (){
-                                    
-                                }
-                            }
-                        }//     
-                    }
-                </pre>
+                <br><br>
+                Consider the problem below:
+                <div\>
             </p>
+
+            <div >    
+            <pre> 
+                <strong>
+                    import java.util.Scanner; 
+                    
+                    
+                    public class submarineEncrptionMachine {
+
+                        public static void main (String[] args) {
+
+                            Scanner scnr = new Scanner(System.in);
+                            
+                            String message;
+                            String encryptedMessage;
+                            
+                            message = "There are sharks down here!";
+                            encryptedMessage = "";
+                    
+                            for (int i = message.length()-1; i  >= 0;  i--) {
+                                    encryptedMessage += message.charAt(i);
+                            }
+                
+                            System.out.println(encryptedMessage);
+                    
+                        }
+                    }
+                </strong>
+            </pre>
+            <p> 
+                What will be output of the above program be?
+
+                <div\>
+            </p>
+
+        </div>
+                </div>
             </div>
             <div style ="text-align: center;">
-                <a class="btn" href="correctORincorrect_3\incorrect3.1.html" > <strong>Answer 1: ...</strong> </a><br>    
-                <a class="btn" href="correctORincorrect_3\correct3.html" > <strong>Answer 2: ...</strong> </a><br>
-                <a class="btn" href="correctORincorrect_3\incorrect3.2.html" > <strong>Answer 3: ...</strong> </a><br>
-                <a class="btn" href="correctORincorrect_3\incorrect3.3.html" > <strong>Answer 4: ...</strong> </a><br>
+                <a class="btn" href="correctORincorrect_3\incorrect3.1.html" > <strong>!erehnwodskrahseraerehT</strong> </a><br>    
+                <a class="btn" href="correctORincorrect_3\correct3.html" > <strong>!ereh nwod skrahs era erehT</strong> </a><br>
+                <a class="btn" href="correctORincorrect_3\incorrect3.2.html" > <strong>""</strong> </a><br>
+                <a class="btn" href="correctORincorrect_3\incorrect3.3.html" > <strong>There are sharks down here!</strong> </a><br>
             </div> 
 </body>
 </html>

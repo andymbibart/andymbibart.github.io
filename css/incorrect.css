@@ -10,35 +10,17 @@ body{
 
 .tiledBackground {
     background-size: 100%;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
-
+    z-index: 2;
   }
-
-h1{
-    font-size: 40px;
-    color: rgb(5, 3, 100);
-    text-align: center;
-}
-
-p{
-    padding-left: 1cm;
-    padding-right: 1cm;
-    color: black; 
-    /* text-align: center; */
-}
-
-pre{
-    font-size: 20px;
-    color: black;
-}
-
 
 .fullCard {
     background-color: white;
+    
     border: 2px solid black;
     border-radius: 5px;
     padding-left: 10px;
@@ -48,7 +30,7 @@ pre{
 
     font-size: 20px;
     width : 80%;
-    box-shadow: 0 7.5px 7.5px 0 grey, 0 15px 15px 0 rgba(4, 4, 212, 0.633);
+    box-shadow: 0 10px 10px 0 grey, 0 15px 15px 0 grey;
     vertical-align: middle;
     margin-left: 8.5%;
     margin-right: 3%;
@@ -58,6 +40,7 @@ pre{
     text-decoration: none;
     position: relative;
     z-index: 1;
+    
 
   }
   .cardContent {
@@ -65,7 +48,7 @@ pre{
   }
 
   .btn { 
-    background-color: rgba(13, 123, 220, 0.76);
+    /* background-color: rgba(42, 42, 245, 0.641); */
     text-decoration:none;
     display:inline-block;
     color:black;
@@ -95,7 +78,51 @@ pre{
     flex-wrap: wrap;
 }
 .btn:hover{
-    background-color: aquamarine;
+    background-color: rgba(0, 128, 0, 0.449);
+}
+
+
+.cardContent {
+    padding: 10px;
+}
+
+body{
+    background-color: white;
+    font-family: monospace;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(5, 3, 100);
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 5%;
+
+    }
+
+.incorrect{
+    height: 100px;
+    width: 100px;
+    /* background: red; */
+    border-radius: 5px;
+    position: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+/* .incorrect:after { */
+.incorrect:after {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274C";
+    font-size: 50px;
+    color: #fff;
+    line-height: 100px;
+
+}
