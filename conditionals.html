@@ -4,48 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/conditionals.css">
     <title>Conditionals</title>
 </head>
-<h1>Conditionals</h1>
 
-<div class="fullCard">
-    <body>
-        <p>
-            Intro summary of conditionals<br>
-            This sections must cover if, else if, and else<br>
-            <pre>
+<body class = 'background-image'>
+    <div class = "fullCard">
+        <div class="cardContent">
+            <div class="cardText"> 
 
-import util.java.Scanner;
+                <h1>Conditionals Challenge!</h1>
+                <hr>
 
-class conditionals {
-    public static void main(String[] args) {
-        java.util.Scanner scnr = new Scanner(System.in);
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde recusandae amet eum molestias earum. Qui libero sit accusamus necessitatibus facere saepe, laudantium eum tenetur voluptatum! Facere odit porro nulla aut tenetur quae fugit expedita molestias animi vitae. Nesciunt corporis atque placeat praesentium adipisci odit sunt eaque reiciendis magni eligendi?  Summary of what conditionals are goes here, but my brain cannot summarise stuffs, will come back to finish the 'text' part of this page<br>
+                        <p style="text-align: center;"> Example: </p>
+                        <!--  <p style = "text-align: center;"> Sunken ships are safe and comfortable to explore under certain temperatures! The pirates can only proceed <strong> if </strong> the water temperature is <strong> warm and pleasant</strong>!</p> -->
 
-        //water temperature conditional question
-        //sunken ships are safe and comfortable to explore under certain temperatures!
-        //the pirates can only proceed if the water temperature is warm and pleasant! 
 
-        System.out.print("Enter the current water temperature: ");
-        int watertemp = scnr.nextInt();
+                    <hr>
 
-        if ((watertemp > 25) && (watertemp < 32)) {
-            System.out.println("The water is warm and pleasant, we should be safe to proceed!");
-        }
-        else if (watertemp <= 25) {
-            System.out.println("The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
-        }
-        else {
-            System.out.println("The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
-        }
+                    <pre>
+Sunken ships are safe and comfortable to explore under certain temperatures! The pirates can only proceed <strong>if</strong> the water temperature is <strong>warm and pleasant</strong>!
 
-    }
-}
-               </pre>
 
-       </p>
-       
-</div>
+       Line 1          import java.util.Scanner;
+            2                
+            3          class conditionals {
+            4              public static void main(String[] args) {
+            5                  java.util.Scanner scnr = new Scanner(System.in);
+            6
+            7                  System.out.print("Enter the current water temperature: ");
+            8                  int watertemp = scnr.nextInt(); 
+            9          
+            10                 if ((watertemp > 25) && (watertemp < 32)) {
+            11                 System.out.println("The water is warm and pleasant, we should be safe to proceed!");
+            12                 }
+            13
+            14                 else if (watertemp <= 25) {
+            15                 System.out.println("The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
+            16                 }
+            17    
+            18                 else {
+            19                 System.out.println("The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
+            20                 }
+            21              }
+            22           }
+                    </pre>
+                    </p>
+                </div>
+
+                <hr>
+
+
+
 
        <p style="text-align: center;">
         which of the following options will allow the pirates to explore the sunken ship safely?
@@ -57,9 +70,8 @@ class conditionals {
             <a class="btn" href="correctORincorrect_2\incorrect2.2.html" > Answer 3: 32°C</a><br>
             <a class="btn" href="correctORincorrect_2\incorrect2.3.html" > Answer 4: 85°C</a><br>        
         </div>   
+
+
     </body>
-
-
-
 
 </html>
