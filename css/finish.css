@@ -15,7 +15,7 @@ h2{
     color: #BBA14F;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 40px;
     /*margin-bottom: 30px;*/
 }
 
@@ -88,7 +88,7 @@ h2{
 
 
 .btn:hover{
-    background-color: #1c7289;
+    background-color: #c9ce8a;
 }
 
 
