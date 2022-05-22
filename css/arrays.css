@@ -51,3 +51,11 @@ h1 {
 .btn:hover {
     background-color: #3e8e41;
 }
+
+pre {
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+}
