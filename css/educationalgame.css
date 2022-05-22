@@ -6,7 +6,7 @@ body{
 }
 .background-image {
     background-image: url('../img/treasuremap.jpg');
-    background-repeat: no-repeat; /* doesn't repeat the background (one image) */
+
     background-size: cover; /* stretches background across whole page  */  
   }
 
