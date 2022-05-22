@@ -11,7 +11,7 @@
 # 6. arrays.html
 # 7. fin.html
 
-# Added code files and the answers to each challenge separately
+# Added code files and the answers to each challenge separately in the 'codes and answers folder'
 # Ahoy! 
 
 
